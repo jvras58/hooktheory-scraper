@@ -38,7 +38,6 @@ O projeto foi criado em JavaScript (mas pode ser facilmente convertido para Type
 │   ├─🇯db.js               -> configurações do mongoDB
 │       ...
 ├─📁screenshots             -> Pasta onde as capturas de tela serão salvas
-├─📁data                    -> Pasta para salvar dados coletados (Não implementado)
 ├── package.json            -> Configurações e dependências do projeto
 ├─📄 .gitignore             -> Arquivos e pastas ignorados pelo Git
 ├─📄 Makefile               -> Automação de tarefas
