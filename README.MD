@@ -127,7 +127,7 @@ Se você preferir configurar e executar o projeto sem usar o devcontainer, siga 
     1. **Inicie os serviços:**
 
         ```sh
-        docker compose up
+        docker compose build
         ```
 
         *Para executar em modo destacado (background), use:*
