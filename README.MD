@@ -181,11 +181,11 @@ Se você preferir configurar e executar o projeto sem usar o devcontainer, siga 
 Temos duas abordagens de scraping para o site:
 
 1. **[Captura de Artistas](src/scraping/artists-scraper.js) :** 
-   - **Descrição:** Coleta apenas os dados dos artistas.
+   - **Descrição:** Coleta apenas a lista dos artistas.
    - **Vantagem:** Execução mais rápida.
    
 2. **[Captura de Artistas e Músicas](src/scraping/artists-scraper-song.js):**
-   - **Descrição:** Coleta os dados dos artistas juntamente com suas músicas.
+   - **Descrição:** Coleta os dados dos artistas juntamente com a lista das suas músicas.
    - **Desvantagem:** Processo mais lento devido ao volume maior de dados.
 
 **Recomendação:** Optamos por utilizar a versão que captura apenas os artistas para otimizar a velocidade de execução. No entanto, você pode utilizar a segunda opção sem problemas caso necessite das informações completas.
@@ -194,5 +194,5 @@ Temos duas abordagens de scraping para o site:
 
 Este projeto está licenciado sob uma licença de uso restrito. **Não é permitida a utilização deste código para fins lucrativos**. O uso e a distribuição são permitidos somente para fins educacionais, pessoais e de pesquisa. Ao utilizar este repositório, você concorda em não utilizar este código em projetos comerciais ou em qualquer outro contexto com fins de lucro.
 
-Para mais informações sobre as permissões e restrições, consulte o arquivo `LICENSE.md`. [aqui](docs/LICENSE.md)
+Para mais informações sobre as permissões e restrições, consulte o arquivo `LICENSE.md` [aqui](docs/LICENSE.md).
 
