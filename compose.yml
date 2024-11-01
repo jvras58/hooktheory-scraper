@@ -1,0 +1,28 @@
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - ~/mongodb/data:/data/db
+    networks:
+      - app-network
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: app-scraper
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongodb
+    environment:
+      MONGO_URI: mongodb://mongodb:27017
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

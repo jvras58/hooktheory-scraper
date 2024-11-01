@@ -1,0 +1,17 @@
+{
+    "name": "WebScraping",
+    "dockerComposeFile": "compose.yml",
+    "service": "puppeteer_project",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "oderwat.indent-rainbow",
+                "tamasfe.even-better-toml",
+                "Gruntfuggly.todo-tree",
+                "ms-vscode.makefile-tools"
+            ]
+        }
+    },
+    "postCreateCommand": "npm install"
+}
